@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapBookAPI", "ScrapBookAPI\ScrapBookAPI.csproj", "{3BF67144-C5F5-4943-B7C2-3AFAF869A97C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrapBook.API", "ScrapBook.API\ScrapBook.API.csproj", "{71AE0AE4-70E5-43B2-92F5-FA4AB93B4184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapBookApp", "ScrapBookApp\ScrapBookApp.csproj", "{0F73C745-5BA0-4297-901D-DF833C89DDEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScrapBook.Common", "ScrapBook.Common\ScrapBook.Common.csproj", "{C4172CB0-59BE-45C1-B672-C41F961994AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrapBook.App", "ScrapBook.App\ScrapBook.App.csproj", "{5FC08825-24A2-425B-8686-6E3EA82FEBBD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +15,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3BF67144-C5F5-4943-B7C2-3AFAF869A97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BF67144-C5F5-4943-B7C2-3AFAF869A97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BF67144-C5F5-4943-B7C2-3AFAF869A97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BF67144-C5F5-4943-B7C2-3AFAF869A97C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F73C745-5BA0-4297-901D-DF833C89DDEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F73C745-5BA0-4297-901D-DF833C89DDEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F73C745-5BA0-4297-901D-DF833C89DDEC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{0F73C745-5BA0-4297-901D-DF833C89DDEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F73C745-5BA0-4297-901D-DF833C89DDEC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0F73C745-5BA0-4297-901D-DF833C89DDEC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{71AE0AE4-70E5-43B2-92F5-FA4AB93B4184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AE0AE4-70E5-43B2-92F5-FA4AB93B4184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AE0AE4-70E5-43B2-92F5-FA4AB93B4184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AE0AE4-70E5-43B2-92F5-FA4AB93B4184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4172CB0-59BE-45C1-B672-C41F961994AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4172CB0-59BE-45C1-B672-C41F961994AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4172CB0-59BE-45C1-B672-C41F961994AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4172CB0-59BE-45C1-B672-C41F961994AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC08825-24A2-425B-8686-6E3EA82FEBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC08825-24A2-425B-8686-6E3EA82FEBBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC08825-24A2-425B-8686-6E3EA82FEBBD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5FC08825-24A2-425B-8686-6E3EA82FEBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC08825-24A2-425B-8686-6E3EA82FEBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC08825-24A2-425B-8686-6E3EA82FEBBD}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
