@@ -9,7 +9,6 @@ namespace ScrapBook.API.Models
         public DbSet<Idea> Ideas { get; set; }
         public DbSet<Note> Notes { get; set; }
         public DbSet<Person> Persons { get; set; }
-        public DbSet<Photo> Photos { get; set; }
         public DbSet<Relationship> Relationships { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
