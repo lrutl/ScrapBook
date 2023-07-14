@@ -8,5 +8,12 @@ namespace ScrapBook.App.ViewModel
 {
     internal class SelectActivityVM : ViewModelBase
     {
+        internal Command SelectReview => new(() =>
+        {
+        });
+
+        internal Command SelectNew => new(() =>
+        {
+        });
     }
 }

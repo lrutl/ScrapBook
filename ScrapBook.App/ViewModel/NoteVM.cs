@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ScrapBook.App.ViewModel
 {
-    internal class NewIdeaVM : ViewModelBase
+    internal class NoteVM : ViewModelBase
     {
     }
 }
